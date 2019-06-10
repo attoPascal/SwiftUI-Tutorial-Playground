@@ -14,7 +14,7 @@ A `UIHostingController` can be used in a Playground Live View like this:
 PlaygroundPage.current.liveView = UIHostingController(rootView: PlaygroundRootView())
 ```
 
-The given root view must `public`, along with its `init()` and `body`:
+The given root view must be `public`, along with its `init()` and `body`:
 
 ```swift
 public struct PlaygroundRootView: View {
