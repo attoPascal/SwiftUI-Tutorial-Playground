@@ -28,7 +28,7 @@ public struct PlaygroundRootView: View {
 
 From here on, standard SwiftUI Views can be used to build the interface.
 
-# Execution
+## Execution
 
 Press the blue Play button next to the `PlaygroundPage.current.liveView` line or type **⇧⌘↵** to run the Playground. If, after the initial build, the preview is not responsive, just press the Play button again.
 
